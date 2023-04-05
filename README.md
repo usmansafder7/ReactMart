@@ -35,3 +35,4 @@ npm start
 
 ## Project Demo:
 View the website deployed on Netlify:
+https://shopzilla-ss.netlify.app/
