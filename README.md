@@ -20,7 +20,7 @@ To get started with Shopzilla, follow these steps:
 * Clone the repository:
 
 ```
-git clone https://github.com/your-username/shopzilla.git
+git clone https://github.com/your-username/Shopzilla.git
 ```
 
 * Install the dependencies
