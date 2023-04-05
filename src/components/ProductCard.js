@@ -10,7 +10,7 @@ export const ProductCard = ({ product }) => {
   const [productInCart, setProductInCart] = useState(false);
 
   useEffect(() => {
-    const isProductInCart = cartList.find(element => element.id == id);
+    const isProductInCart = cartList.find(element => element.id === id);
 
     if (isProductInCart) {
         setProductInCart(true)
@@ -18,13 +18,13 @@ export const ProductCard = ({ product }) => {
         setProductInCart(false)
     }
 
-  }, [cartList, product])
+  }, [cartList, id])
 
   return (
     
     <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-3">
         <Link to={`products/${id}`}>
-            <img className="h-60 w-60 p-8 rounded-t-lg" src={image} alt="product image" />
+            <img className="h-60 w-60 p-8 rounded-t-lg" src={image} alt={title} />
         </Link>
         <div className="px-5 pb-5">
             <Link to={`products/${id}`}>
