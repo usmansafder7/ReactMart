@@ -32,3 +32,6 @@ npm install
 ```
 npm start
 ```
+
+## Project Preview:
+
