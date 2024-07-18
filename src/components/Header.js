@@ -27,7 +27,7 @@ export const Header = () => {
             <div className="flex flex-wrap items-center justify-between mx-auto px-8">
                 <Link to="/" className="flex items-center">
                     <img src={logo} className="h-16 w-16 mr-0" alt="Shopzilla Logo" />
-                    <span className="self-center text-3xl font-semibold whitespace-nowrap pt-4 dark:text-white">Shopzilla</span>
+                    <span className="self-center text-3xl font-semibold whitespace-nowrap pt-4 dark:text-white">ReactMart</span>
                 </Link>
                 <div className="flex md:order-2 pt-4">
                     <button onClick={() => setDarkMode(!darkMode)} className="border rounded-lg border-gray-300 bg-gray-50 hover:bg-gray-100 hover:text-orange-600 px-3 mr-2 dark:bg-gray-700 dark:border-gray-600 max-sm:hidden text-gray-500 dark:hover:text-white">

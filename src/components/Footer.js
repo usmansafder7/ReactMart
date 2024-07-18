@@ -7,7 +7,7 @@ export const Footer = () => {
   return (
       
     <footer className="p-4 bg-white shadow border-t-2 border-gray-200 md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800 dark:border-gray-800">
-      <span className="text-base text-gray-500 sm:text-center dark:text-gray-400 sm:ml-8">© 2023 <Link to="/" className="underline">Shopzilla™</Link> </span>
+      <span className="text-base text-gray-500 sm:text-center dark:text-gray-400 sm:ml-8">© 2023 <Link to="/" className="underline">ReactMart™</Link> </span>
 
       <ul className="flex flex-row flex-wrap items-center gap-8 text-gray-500 mt-4 sm:mt-0 sm:mr-8">
           <li>
