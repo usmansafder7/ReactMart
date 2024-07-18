@@ -1,4 +1,4 @@
-# Shopzilla
+# ReactMart
 A mock ecommerce store built with React.
 
 ## Features
@@ -20,7 +20,7 @@ To get started with Shopzilla, follow these steps:
 * Clone the repository:
 
 ```
-git clone https://github.com/your-username/Shopzilla.git
+git clone https://github.com/your-username/ReactMart.git
 ```
 
 * Install the dependencies
@@ -32,8 +32,3 @@ npm install
 ```
 npm start
 ```
-
-## Project Demo:
-View the website deployed on Netlify:
-<br>
-https://shopzilla-ss.netlify.app/
